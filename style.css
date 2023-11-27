@@ -13,7 +13,7 @@
 }
 
 img{
-    animation: ease-in;
+    animation: slide-right 1s;
 }
 
 .card {
@@ -24,13 +24,22 @@ img{
 
 .card:hover {
     background: #0d6efd;
+    color:white;
     transform: translatey(-10px);
 }
 
 h1{
-    animation: fade 1s
+    animation: fade 2s
 }
 
+@keyframes slide-right{
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left:0%;
+    }
+}
 @keyframes fade{
     from {opacity:0;}
     to {opacity:1;}
