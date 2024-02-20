@@ -19,8 +19,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand ma-auto mb-2 mb-lg-0" href="#"></a>
-            <img src="img/DHL_Logo.svg" alt="logo" height="36">
+            <a class="navbar-brand ma-auto mb-2 mb-lg-0" href="index.html">
+                <img src="img/logo.png" alt="logo" height="36"></a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="onas.html">O nás</a>
@@ -44,6 +44,60 @@
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+<div class="container">
+    <h2 style="font-weight: bold">Objednavatel</h2>
+    <form>
+        <div class="mb-3">
+            <input class="form-control" placeholder="Název společnosti">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" placeholder="">
+        </div>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" placeholder="Ulice">
+            </div>
+            <div class="col">
+                <input class="form-control" placeholder="PSČ">
+            </div>
+            <div class="col">
+                <input class="form-control" placeholder="Město">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" placeholder="Ulice">
+            </div>
+            <div class="col">
+                <input class="form-control" placeholder="PSČ">
+            </div>
+            <div class="col">
+                <input class="form-control" placeholder="Město">
+            </div>
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 </div>
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
